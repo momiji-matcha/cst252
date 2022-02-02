@@ -1,0 +1,76 @@
+h1 {
+  color: blue;
+  font-size: 600%;
+  font-family: monospace;
+  text-align: center;
+}
+
+#content {
+  max-width: 850px;
+  min-width: 850px;
+  padding: 20px;
+  margin: 0 auto;
+  background: rgba(100%, 100%, 100%, .5);
+  margin-top: 50px;
+
+}
+
+#background {
+  background-image: url("../img/cloudgif.gif");
+  background-size: cover;
+  max-width: 1850px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+h2 {
+  font-size: 371%;
+}
+
+#Sugi {
+  color: #64c03e;
+  font-family: 'Rubik Beastly', cursive;
+}
+
+#Jeremy {
+  color: MidnightBlue;
+  font-family:fantasy;
+}
+
+p {
+    font-family:'Zen Kurenaido', sans-serif;
+    margin-left: 20px;
+    text-indent: 40px;
+    font-size: 142%;
+}
+
+#cat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  transition: transform 1s;
+}
+
+#cat:hover {
+  transform: rotate(720deg);
+  }
+
+h2:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake /*taken from w3schools -Sugi*/ {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
