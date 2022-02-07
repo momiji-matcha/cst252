@@ -1,0 +1,39 @@
+img {
+  width: 300px;
+  float: right;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  background-color: #c3dd9b;
+  padding: 10px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#about {
+  background-color: #c3dd9b;
+  width: 920px;
+  padding: 10px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+p {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#links {
+  font-family: 'Zen Kurenaido', sans-serif;
+  background-color: rgba(162, 221, 155, .7);
+  width: 600px;
+}
+
+div#welcome p {
+    background-color: rgba(162, 221, 155, .7);
+  display: inline-block;
+}
+
+body {
+  background-image: url("../img/treeswebsite.jpg");
+}
