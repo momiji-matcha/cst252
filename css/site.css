@@ -12,7 +12,7 @@ h1 {
   font-family: 'Zen Kurenaido', sans-serif;
 }
 
-#about {
+#about #content{
   background-color: #c3dd9b;
   width: 920px;
   padding: 10px;
@@ -21,6 +21,7 @@ h1 {
 
 p {
   font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 15px
 }
 
 #links {
