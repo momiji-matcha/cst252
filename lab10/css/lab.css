@@ -1,0 +1,13 @@
+button {
+  font-family: monospace;
+  display: inline-block;
+       background-color: #7b38d8;
+       border-radius: 10px;
+       border: 6px double #FFFFFF;
+       color: #eeeeee;
+       text-align: center;
+       font-size: 28px;
+       padding: 20px;
+       width: 300px;
+       //code modified from w3 schools
+}
