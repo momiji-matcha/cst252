@@ -24,7 +24,7 @@ p {
   font-size: 20px;
 }
 
-#links {
+#links, #challenge, #problems, #results {
   font-family: 'Zen Kurenaido', sans-serif;
   background-color: rgba(162, 221, 155, .7);
   width: 600px;
