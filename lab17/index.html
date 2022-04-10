@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 16: Classes and Objects</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/lab.js" defer></script>
+
+</head>
+<body>
+
+	<div id="welcome">
+		<h1>Lab 16: Classes and Objects</h1>
+  </div>
+
+
+	<div id="challenge">
+			<h2>Challenge</h2>
+				<p>Convert our JavaScript prototype into a class and create an object-oriented design for hangman.</p>
+
+ </div>
+
+
+ <div id="problems">
+		 <h2>Problems</h2>
+			 <p>We couldn't figure out why our output wasn't printing for a LONG time but it turned out to to be a fairly simple solution (as usual).</p>
+
+</div>
+
+
+<div id="results">
+		<h2>Results</h2>
+		<p>Here are our cars:</p>
+
+
+</div>
+
+
+<div id="oop">
+	<h2>OOP Hangman</h2>
+	<h2>Understand the problem.</h2>
+		<p>Set up the game board and players.<br>
+			 Game loop.<br>
+		   Establish the word that is being guessed.<br>
+		   Generate one empty space for each letter in the word.<br>
+			 Get letter guess from player.<br>
+			 If correct, fill empty space(s) with corresponding letter<br>
+			 If incorrect, add letter to incorrect box and generate a body part on the hanged man.<br>
+			 If all body parts generated, end game.<br>
+			 Prompt player for word guess.<br>
+			 If correct, end game.<br>
+			 If incorrect, start the process over.<br>
+		   </p>
+
+	<h2>Psudocode the higher level approach.</h2>
+		<p>Set up the game initially<br>
+		     Create the game board<br>
+			  	Generate random word<br>
+			 Start the game loop<br>
+			 		Get letter guess from player<br>
+						if correct, write letter into empty space<br>
+						if incorrect, write letter into wrong box<br>
+						generate body part<br>
+							if body complete, end loop<br>
+          Ask player for a word guess<br>
+					 if correct, stop looping<br>
+					 if incoorect, keep looping<br>
+		      </p>
+
+	<h2>Assign actions to objects.</h2>
+		<p>Set up the game initially [HangMan]<br>
+		     Create the game board [Board]<br>
+				 Generate random word [Board]<br>
+			  	Generate random word [Board]<br>
+			 Start the game loop [HangMan]<br>
+			 		Get letter guess from player [Guess]<br>
+						if correct, write letter into empty space [Board]<br>
+						if incorrect, write letter into wrong box [Board]<br>
+						generate body part [Board]<br>
+							if body complete, end loop [HangMan]<br>
+          Ask player for a word guess [Guess]<br>
+					 if correct, stop looping [HangMan]<br>
+					 if incorrect, keep looping [HangMan]</p>
+
+	<h2>Make a JavaScript-ish pseudocode.</h2>
+		 <p>//Controls the game play.<br>
+		   class HangMan<br>
+		     //initialize<br>
+			      //sets up the board<br>
+					  //generate word<br>
+				 //play<br>
+			      //loop indefinitely<br>
+					  	//ask for a letter input<br>
+						  //ask for player guess input<br>
+						  //break loop if the game is over<br>
+				 //check game over<br>
+				   //if word is completed, end loop<br>
+					 //if man is completed, end loop<br>
+				//check win <br>
+				  //if word guess is correct, end loop<br>
+
+				class Board<br>
+			     //generate<br>
+				     //take word and break into individual letters<br>
+						 //create body part if the guess is incorrect<br>
+
+				class Guess <br>
+				   //take user input<br>
+					   //compare letter to letters in correct word<br>
+						 //compare guess to the correct word<br>
+					 </p>
+</div>
+
+<div id = "links">
+	    <h2></h2>
+			  <div id="output"></div>
+</div>
+
+</body>
+</html>
