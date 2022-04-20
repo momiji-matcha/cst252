@@ -6,7 +6,7 @@
 
 
 //define a URL
-var url="http://numbersapi.com/random/trivia";
+var url="https://numbersapi.com/random/trivia";
 
 //make the button fetch AJAX
 $("#activate").click(getAjax);
